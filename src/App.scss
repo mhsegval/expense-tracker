@@ -1,8 +1,19 @@
-$primary: #41B3A3;
-$secondary: #C38D9E;
-$warning: #E8A87C;
-$danger: #E27D60;
-$light: #FFFFFF;
-$dark: #000;
+// $primary: #41B3A3;
+// $secondary: #C38D9E;
+// $warning: #E8A87C;
+// $danger: #E27D60;
+// $light: #FFFFFF;
+// $dark: #000;
 
+$primary: #36d1dc;
+$secondary: #5b86e5;
+$light: #f2eef2;
+$dark: #010101;
+
+.bg-primary,
+.btn-primary,
+.badge-primary,
+.alert-primary {
+    background-image: linear-gradient(to right, #36d1dc, #5b86e5);
+}
 @import "../node_modules/bootstrap/scss/bootstrap";
